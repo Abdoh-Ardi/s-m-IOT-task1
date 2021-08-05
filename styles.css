@@ -1,0 +1,47 @@
+
+.content-container{
+  position: relative;
+   top: 50%;
+   left: 50%;
+   margin-top: -50px;
+   margin-left: -50px;
+   width: 200px;
+   height: 200px;
+   display: inline-block
+
+}
+
+.buttonContainer{
+  float: left;
+
+}
+
+.sliderContainer{
+
+  background-color: grey;
+  float: left;
+  margin-top: 200px;
+}
+
+
+input[type="range"]{
+float:left;
+overflow: hidden;
+
+ -webkit-appearance: none;
+ background-color: white;
+
+}
+input[type="number"]{
+  font-size: 14px;
+  outline-style:hidden;
+  float:left;
+  width: 50px;
+}
+
+.box{
+float:left;
+}
+h4{
+  color: white;
+}

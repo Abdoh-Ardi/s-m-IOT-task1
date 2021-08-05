@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="logic.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
 
+
+
+  </head>
+  <body>
+    <div class="content-container">
+
+
+    <form action="http://localhost/serverFiles/index.php" method="post" id="form" class="content">
+
+
+
+    <div class="sliderContainer" >
+
+
+      <div class="box" >
+        <h4>Motor 1</h3>
+        <input type="number" min="1" max="180" id="percent1" readonly>
+
+        <input type="range" min="1" max="180" value="90" class="slider" id="myRange1" name="servo1">
+      </div>
+
+      <div class="box">
+          <h4>Motor 2</h3>
+      <input  type="number" min="1" max="180" id="percent2"  readonly>
+      <input type="range" min="1" max="180" value="90" class="slider" id="myRange2" name="servo2">
+    </div>
+
+<div class="box">
+    <h4>Motor 3</h3>
+      <input  type="number" min="1" max="180" id="percent3" readonly>
+      <input type="range" min="1" max="180" value="90" class="slider" id="myRange3" name="servo3">
+</div>
+<div class="box">
+    <h4>Motor 4</h3>
+      <input type="number" min="1" max="180" id="percent4"  readonly>
+      <input type="range" min="1" max="180" value="90" class="slider" id="myRange4"name="servo4">
+</div>
+<div class="box">
+    <h4>Motor 5</h3>
+      <input type="number" min="1" max="180" id="percent5"  readonly>
+      <input type="range" min="1" max="180" value="90" class="slider" id="myRange5" name="servo5">
+</div>
+
+<div class="buttonContainer" >
+<hr>
+  <input type="submit" name="send" value="Save">
+  <input type="reset" name="Reset" value="Reset" id="Reset">
+</div>
+
+    </div>
+</form>
+</div>
+  </body>
+</html>
